@@ -1,0 +1,11 @@
+.DS_Store
+*.o
+*.out
+*.a
+*.lib
+*.config
+*.cfg
+*.ini
+/log/
+/output/
+*.log
