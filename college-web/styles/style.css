@@ -1,0 +1,80 @@
+body {
+  /* background-color: #c6b1b1; */
+  font-family: "Roboto", sans-serif;
+}
+
+.heading {
+  color: brown;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+aside{
+    display: float;
+    right: 0;
+}
+
+.logo-container {
+  width: 20%;
+}
+
+.nav-items {
+  width: 80%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.nav-items li a{
+  color: rgb(20, 120, 201);
+}
+
+.nav-items li a {
+  text-decoration: none;
+}
+
+.nav-items li a:hover {
+  border-bottom: 2px solid rgba(20, 120, 201, 0.617);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .nav-items {
+    flex-direction: column;
+    align-items: start;
+    /* align-items: center; */
+  }
+}
+
+
+at: right;
+}
+
+footer{
+    background-color: cadetblue;
+}
+
+
+
+/*
+Exercise : 13
+    Demonstrate the examples for positing your html element in different layouts
+    -static
+    -relative
+    -sticky
+    -absolute
+    -fixed
+
+Exercise : 14
+    Add appropriate shadows for your text and box elements required.
+
+Exercise: 15 D
+    Demonstrate example for fluid layout for displaying responsive UI in your web page
+*/

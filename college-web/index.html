@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Figtree:wght@300;400;500;600;700&family=Montserrat:wght@200;300;500;600&family=Nunito:wght@300;400;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Lab2</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 10px 10px;
+    }
+    h1 {
+      color: antiquewhite;
+    }
+  </style>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo-container">
+          <img src="./images/logo.png" width="100px" />
+        </div>
+        <ul class="nav-items">
+          <li><a href="#">Home</a></li>
+          <li><a href="trending.html">Trending</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">Locations</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1 class="heading">Heavy Rainfall in Kathmandu</h1>
+        <p>Richer are Surfing and Poor are Suffering.</p>
+      </article>
+        <img src="./images/rich.jpeg" width="250px" />
+      <section>
+        <h2>More about the rainfall</h2>
+        <p>
+          How can prime minister still sleep well when 15 people already died.
+        </p>
+      </section>
+      <section>
+        <main>
+          <h2>Audio</h2>
+          <audio controls>
+            <source src="audio/sample.mp3" type="audio/mpeg" />
+          </audio>
+
+          <h2>Video</h2>
+          <video controls width="640" height="360">
+            <source src="video/sample.mp4" type="video/mp4" />
+          </video>
+        </main>
+      </section>
+
+      <section>
+        <h2>iFrame example</h2>
+        <iframe
+          src="https://en.wikipedia.org/wiki/KP_Sharma_Oli"
+          title="kpoli"
+          width="100%"
+        ></iframe>
+      </section>
+
+      <section>
+        <h2>Canvas Drawing</h2>
+        <canvas
+          id="myCanvas"
+          width="200"
+          height="100"
+          style="border: 1px solid #000000"
+        >
+        </canvas>
+      </section>
+
+      <section>
+        <h2>Upcoming Events</h2>
+        <table border="1px" border>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Event</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2023-08-15</td>
+              <td>10:00 AM - 12:00 PM</td>
+              <td>Concert organized by Fresh Version</td>
+              <td>Room 101</td>
+            </tr>
+            <tr>
+              <td>2023-08-17</td>
+              <td>2:00 PM - 4:00 PM</td>
+              <td>Free tech seminars for IT students</td>
+              <td>Auditorium</td>
+            </tr>
+            <tr>
+              <td>2023-08-20</td>
+              <td>6:30 PM - 8:30 PM</td>
+              <td>Concert: Jazz Night</td>
+              <td>Outdoor Stage</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 BestVersion.</p>
+    </footer>
+  </body>
+</html>
