@@ -17,6 +17,6 @@ int fibonacciSeries(int a){
     return 0;
 }
 int main(){
-    fibonacciSeries(20);
+    fibonacciSeries(10);
     return 0;
 }
