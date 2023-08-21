@@ -14,6 +14,7 @@
 .nav-items-container {
   width: 60%;
   font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .nav-items {
